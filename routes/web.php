@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('/nuevo', 'UserController@newUser');
+Route::get('/usuarios', 'UserController@showUsers');
